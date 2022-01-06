@@ -1,0 +1,275 @@
+body{
+    font-family: 'Baloo Bhai 2', 'cursive';
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+}
+.logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.logo h2{
+    width:350px ;
+    font-size: 1.8rem;
+    margin-top: -25px;
+    text-align: center;
+    margin-bottom: 15px;
+    font-weight: 800;
+
+}
+.logo img{
+    width: 300px;
+    height: 300px;
+}
+.rule{
+    width: 400px;
+    margin-left:22px;
+}
+.items{
+    margin: 22px;
+}
+.items a{
+    color: black;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.items1 a{
+    color: black;
+    font-size: 1.2rem;
+    font-weight: normal;
+    margin: 10px;
+}
+.navbar ul li ul{
+    display: none;
+}
+.navbar ul li:focus-within > ul,
+.navbar ul li:hover > ul{
+    display: initial;
+}
+.navbar ul li ul li a:focus-within{
+    color: blue;
+}
+li{
+    list-style: none;
+}
+.footer{
+    position: absolute;
+    top: 95%;
+}
+.copyright{
+    text-align: center;
+    margin-top: 7px;
+    font-size: 1rem;
+}
+.service-container{
+    display: flex;
+}
+.package{
+    background-color: #f0f0f0;
+    width: 1000px;
+}
+.package h2{
+    margin: 30px;
+}
+.center{
+    display: flex;
+    justify-content: center;
+}
+.container{
+    display: flex;
+    background-color: #fff;
+    width: 930px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 20px rgba(0,0,0,0.6);
+    margin-bottom: 50px;
+}
+.product-image{
+    width: 215px;
+    height: 215px;
+}
+.product-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    box-sizing: border-box;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.content{
+    margin: 20px;
+    width: 400px;
+}
+.content h1{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.content p{
+    font-weight: 600;
+}
+.price{
+    margin: 30px 70px;
+    font-size: 0.8rem;
+}
+.cart{
+    display: flex;
+    margin-top: 65px;
+}
+.cart img{
+    width: 25px;
+    height: 25px;
+    margin-top: 5px;
+}
+input{
+    width: 25px;
+    outline: none;
+    border: none;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 800;
+}
+.btn{
+    width: 25px;
+    font-size: 1.2rem;
+    font-weight: 700;
+    background-color: #fff;
+    border: none;
+    cursor: pointer;
+}
+.page{
+    display: flex;
+    border: 1px solid #f0f0f0;
+    width: 75px;
+}
+.cart-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15px;
+}
+.profile{
+    display: flex;
+    align-items: center;
+    margin: 30px;
+}
+.profile h1{
+    font-size: 1.8rem;
+    font-weight: 800;
+}
+.profile img{
+    width: 65px;
+    height: 65px;
+    margin-left: 260px;
+}
+.rule1{
+    width: 500px;
+    margin-left:30px;
+}
+.my-order{
+    margin: 30px;
+}
+.my-order h1{
+    font-size: 1.8rem;
+    font-weight: 800;
+}
+.date{
+    margin-top: 5px;
+}
+.value{
+    display: flex;
+    border: 2px solid rgba(0,0,0,0.6);
+    align-items: center;
+    border-radius: 5px;
+    height: 45px;
+    width: 500px;
+    justify-content: space-between;
+    padding: 12px;
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+}
+.value img{
+    width:30px ;
+    height: 30px;
+}
+.product{
+    display: flex;
+    border-radius: 5px;
+    background: #f0f0f0;
+    box-shadow: 2px 2px 20px rgba(0,0,0,0.6);
+    height: 130px;
+    align-items: center;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+.cont{
+    margin: 12px;
+}
+.page1{
+    display: flex;
+    border: 1px solid #f0f0f0;
+    border-radius: 2px;
+    width: 75px;
+}
+.pic img{
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+    object-fit: cover;
+    box-sizing: border-box;
+}
+.calculated-price{
+    margin-top: -60px;
+    padding: 24px;
+}
+.label{
+    background-color: blue;
+    color: white;
+    width: 20px;
+    height:20px;
+    border-radius: 5px;
+    position: absolute;
+    margin-left: 88px;
+    margin-top: -5px;
+    font-weight: normal;
+    font-size: 1rem;
+}
+.bill{
+    display: flex;
+    margin: 30px;
+    justify-content: space-between;
+    font-size: 1.2rem;
+}
+.btn1{
+    display: flex;
+    justify-content: center;
+    background-color: #202b38;
+    width: 400px;
+    height: 45px;
+    align-items: center;
+    border-radius: 5px;
+    margin: auto;
+    color: white;
+    font-size: 1.4rem;
+}
+.btn1:hover{
+    color: #232b38;
+    border: 2px solid #232b38;
+    background-color: #fff;
+    transition: all ease-in-out 0.3s;
+}
+
+
+
+
